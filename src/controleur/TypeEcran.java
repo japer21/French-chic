@@ -10,5 +10,5 @@ package controleur;
  * @author jperk
  */
 public enum TypeEcran {
-    ECRAN_ACCUEIL
+    ECRAN_ACCUEIL, ECRAN_ACCUEIL_PERSO, ECRAN_PANIER
 }
