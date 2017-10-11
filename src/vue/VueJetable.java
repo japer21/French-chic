@@ -10,12 +10,12 @@ import controleur.*;
  *
  * @author jperk
  */
-public class EcranAccueil extends javax.swing.JFrame {
+public class VueJetable extends javax.swing.JFrame {
 
     /**
      * Creates new form Connexion
      */
-    public EcranAccueil() {
+    public VueJetable() {
         initComponents();
         this.setTitle("Accueil");
     }
@@ -53,7 +53,7 @@ public class EcranAccueil extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 153, 153));
-        jLabel1.setText("VENTES ET SERVICE");
+        jLabel1.setText("French Chic");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -122,14 +122,22 @@ public class EcranAccueil extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(EcranAccueil.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VueJetable.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(EcranAccueil.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VueJetable.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(EcranAccueil.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VueJetable.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(EcranAccueil.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VueJetable.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
         //</editor-fold>
@@ -146,7 +154,7 @@ public class EcranAccueil extends javax.swing.JFrame {
            java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 
-                new EcranAccueil().setVisible(true);
+                new VueJetable().setVisible(true);
                 
             }
         }); 
